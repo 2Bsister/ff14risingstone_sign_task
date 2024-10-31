@@ -19,7 +19,7 @@ runs:
         python-version: ${{ inputs.python-version }}
         architecture: "x64"
         cache: "poetry"
-        like_post_id:81999
+      
 
     - run: poetry install
       shell: bash
